@@ -20,7 +20,7 @@ describe('Test changes', function() {
     });
   });
 
-  it('returns null without start date', function(done) {
+  it('returns an empty changes without start date', function(done) {
     var document = {
       metadata: {}
     };
@@ -28,10 +28,7 @@ describe('Test changes', function() {
     var changes = {};
 
     hydrater(null, document, changes, function(err, changes) {
-      if(changes !== null) {
-        return done(new Error('Changes should be null'));
-      }
-
+      changes.should.not.have.property('metadata');
       done();
     });
   });
