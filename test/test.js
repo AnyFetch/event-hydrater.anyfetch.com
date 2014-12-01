@@ -5,7 +5,7 @@ require('should');
 var hydrater = require('../lib/');
 
 describe('Test changes', function() {
-  it('returns the correct informations', function(done) {
+  it('returns the correct information', function(done) {
     var document = {
       metadata: {
         startDate: new Date()
