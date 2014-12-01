@@ -1,6 +1,6 @@
-# Hydrater boilerplate
+# Event hydrater
 > Visit http://anyfetch.com for details about AnyFetch.
 
-AnyFetch Hydrater boilerplate.
+Set modificationDate to event start date
 
 Support: `support@anyfetch.com`.

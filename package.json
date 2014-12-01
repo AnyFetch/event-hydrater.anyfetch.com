@@ -20,7 +20,6 @@
     "hydrater"
   ],
   "dependencies": {
-    "async": "0.9.x",
     "anyfetch-hydrater": "^2.0.2"
   },
   "devDependencies": {
