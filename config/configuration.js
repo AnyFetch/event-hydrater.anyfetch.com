@@ -21,7 +21,7 @@ module.exports = {
   redisUrl: process.env.REDIS_URL,
   appName: process.env.APP_NAME || "event-hydrater",
 
-  concurrency: process.env.EVENT_CONCURRENCY || defaultConcurrency,
+  concurrency: process.env.CONCURRENCY || defaultConcurrency,
 
   opbeat: {
     organizationId: process.env.OPBEAT_ORGANIZATION_ID,
