@@ -20,7 +20,8 @@
     "hydrater"
   ],
   "dependencies": {
-    "anyfetch-hydrater": "^2.0.8"
+    "anyfetch-hydrater": "^2.0.8",
+    "heroku-self-ping": "^1.1.1"
   },
   "devDependencies": {
     "mocha": "2.1.x",
